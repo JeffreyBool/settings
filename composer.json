@@ -4,18 +4,18 @@
   "description": "Persistent settings package for Laravel framework.",
   "authors": [
     {
-      "name": "Edvinas Kručas",
-      "email": "edv.krucas@gmail.com"
+      "name": "JeffreyBool",
+      "email": "1402992668@qq.com"
     }
   ],
 
   "extra": {
     "laravel": {
       "providers": [
-        "Krucas\\Settings\\Providers\\SettingsServiceProvider"
+        "JeffreyBool\\Settings\\Providers\\SettingsServiceProvider"
       ],
       "aliases": {
-        "Settings": "Krucas\\Settings\\Facades\\Settings"
+        "Settings": "JeffreyBool\\Settings\\Facades\\Settings"
       }
     }
   },
