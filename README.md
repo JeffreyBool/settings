@@ -27,7 +27,7 @@ Require this package in your composer.json:
 
 ```
 "require": {
-  "edvinasJeffreyBool/settings": "2.0.0"
+  "jeffreybool/settings": "2.0.0"
 }
 ```
 

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dec7b98f-c6c5-4387-8f25-da90278fd260" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aA1c5epDf4Xgx3AehyvUEx7vli" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ContextSerializerTest.testSerializeNull" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ContextSerializerTest" file="$PROJECT_DIR$/tests/ContextSerializerTest.php" method="testSerializeNull" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ContextSerializerTest.testSerializeNull" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dec7b98f-c6c5-4387-8f25-da90278fd260" name="默认更改列表" comment="" />
+      <created>1586163660272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586163660272</updated>
+      <workItem from="1586163662071" duration="757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1649" y="316" key="#ContextSerializerTest.testSerializeNull" timestamp="1586163840850">
+      <screen x="0" y="23" width="3360" height="1867" />
+    </state>
+    <state x="1649" y="316" key="#ContextSerializerTest.testSerializeNull/0.23.3360.1867@0.23.3360.1867" timestamp="1586163840850" />
+    <state x="1622" y="415" width="812" height="582" key="find.popup" timestamp="1586163741968">
+      <screen x="0" y="23" width="3360" height="1867" />
+    </state>
+    <state x="1622" y="415" width="812" height="582" key="find.popup/0.23.3360.1867@0.23.3360.1867" timestamp="1586163741968" />
+  </component>
+</project>
