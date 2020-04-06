@@ -2,7 +2,7 @@
 
 # Persistent Settings for Laravel 5
 
-[![Build Status](https://travis-ci.org/edvinaskrucas/settings.png?branch=master)](https://travis-ci.org/edvinaskrucas/settings)
+[![Build Status](https://travis-ci.org/edvinasJeffreyBool/settings.png?branch=master)](https://travis-ci.org/edvinasJeffreyBool/settings)
 
 ---
 
@@ -27,7 +27,7 @@ Require this package in your composer.json:
 
 ```
 "require": {
-  "edvinaskrucas/settings": "2.0.0"
+  "edvinasJeffreyBool/settings": "2.0.0"
 }
 ```
 
@@ -45,19 +45,19 @@ Add following lines to ```app/config/app.php```
 ServiceProvider array
 
 ```php
-Krucas\Settings\Providers\SettingsServiceProvider::class,
+JeffreyBool\Settings\Providers\SettingsServiceProvider::class,
 ```
 
 Alias array
 ```php
-'Settings' => Krucas\Settings\Facades\Settings::class
+'Settings' => JeffreyBool\Settings\Facades\Settings::class
 ```
 
 ### Publishing config file
 
 If you want to edit default config file, just publish it to your app folder.
 
-    php artisan vendor:publish --provider="Krucas\Settings\Providers\SettingsServiceProvider" --tag="config"
+    php artisan vendor:publish --provider="JeffreyBool\Settings\Providers\SettingsServiceProvider" --tag="config"
 
 ## Usage
 

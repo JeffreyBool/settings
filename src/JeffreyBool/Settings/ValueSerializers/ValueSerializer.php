@@ -1,8 +1,8 @@
 <?php
 
-namespace Krucas\Settings\ValueSerializers;
+namespace JeffreyBool\Settings\ValueSerializers;
 
-use Krucas\Settings\Contracts\ValueSerializer as ValueSerializerContract;
+use JeffreyBool\Settings\Contracts\ValueSerializer as ValueSerializerContract;
 
 class ValueSerializer implements ValueSerializerContract
 {

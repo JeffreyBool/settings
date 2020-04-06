@@ -1,15 +1,15 @@
 <?php
 
-namespace Krucas\Settings\Contracts;
+namespace JeffreyBool\Settings\Contracts;
 
-use Krucas\Settings\Context;
+use JeffreyBool\Settings\Context;
 
 interface ContextSerializer
 {
     /**
      * Serialize context into a string representation.
      *
-     * @param \Krucas\Settings\Context $context
+     * @param \JeffreyBool\Settings\Context $context
      * @return string
      */
     public function serialize(Context $context = null);

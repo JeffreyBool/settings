@@ -1,18 +1,18 @@
-<?php namespace Krucas\Settings\Providers;
+<?php namespace JeffreyBool\Settings\Providers;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
-use Krucas\Settings\Console\SettingsTableCommand;
-use Krucas\Settings\Factory;
-use Krucas\Settings\Settings;
+use JeffreyBool\Settings\Console\SettingsTableCommand;
+use JeffreyBool\Settings\Factory;
+use JeffreyBool\Settings\Settings;
 
 class SettingsServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
      *
-     * @param \Krucas\Settings\Settings $settings
+     * @param \JeffreyBool\Settings\Settings $settings
      * @param \Illuminate\Contracts\Config\Repository $config
      * @param \Illuminate\Contracts\Events\Dispatcher $dispatcher
      */
@@ -41,7 +41,7 @@ class SettingsServiceProvider extends ServiceProvider
      *
      * @param array $override
      * @param \Illuminate\Contracts\Config\Repository $config
-     * @param \Krucas\Settings\Settings $settings
+     * @param \JeffreyBool\Settings\Settings $settings
      * @param \Illuminate\Contracts\Events\Dispatcher $dispatcher
      */
     protected function overrideConfig(array $override, Repository $config, Settings $settings, Dispatcher $dispatcher)
@@ -121,17 +121,17 @@ class SettingsServiceProvider extends ServiceProvider
      */
     protected function registerAliases()
     {
-        $this->app->alias('settings.factory', 'Krucas\Settings\Contracts\Factory');
+        $this->app->alias('settings.factory', 'JeffreyBool\Settings\Contracts\Factory');
 
-        $this->app->alias('settings.repository', 'Krucas\Settings\Contracts\Repository');
+        $this->app->alias('settings.repository', 'JeffreyBool\Settings\Contracts\Repository');
 
-        $this->app->alias('settings.key_generator', 'Krucas\Settings\Contracts\KeyGenerator');
+        $this->app->alias('settings.key_generator', 'JeffreyBool\Settings\Contracts\KeyGenerator');
 
-        $this->app->alias('settings.context_serializer', 'Krucas\Settings\Contracts\ContextSerializer');
+        $this->app->alias('settings.context_serializer', 'JeffreyBool\Settings\Contracts\ContextSerializer');
 
-        $this->app->alias('settings.value_serializer', 'Krucas\Settings\Contracts\ValueSerializer');
+        $this->app->alias('settings.value_serializer', 'JeffreyBool\Settings\Contracts\ValueSerializer');
 
-        $this->app->alias('settings', 'Krucas\Settings\Settings');
+        $this->app->alias('settings', 'JeffreyBool\Settings\Settings');
     }
 
     /**

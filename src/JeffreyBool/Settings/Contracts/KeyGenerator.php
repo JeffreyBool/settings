@@ -1,8 +1,8 @@
 <?php
 
-namespace Krucas\Settings\Contracts;
+namespace JeffreyBool\Settings\Contracts;
 
-use Krucas\Settings\Context;
+use JeffreyBool\Settings\Context;
 
 interface KeyGenerator
 {
@@ -10,7 +10,7 @@ interface KeyGenerator
      * Generate storage key for a given key and context.
      *
      * @param string $key
-     * @param \Krucas\Settings\Context $context
+     * @param \JeffreyBool\Settings\Context $context
      * @return string
      */
     public function generate($key, Context $context = null);

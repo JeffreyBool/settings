@@ -1,4 +1,4 @@
-<?php namespace Krucas\Settings\Contracts;
+<?php namespace JeffreyBool\Settings\Contracts;
 
 interface Repository
 {

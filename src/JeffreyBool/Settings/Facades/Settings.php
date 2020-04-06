@@ -1,4 +1,4 @@
-<?php namespace Krucas\Settings\Facades;
+<?php namespace JeffreyBool\Settings\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

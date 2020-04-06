@@ -1,6 +1,6 @@
 <?php
 
-namespace Krucas\Settings;
+namespace JeffreyBool\Settings;
 
 class Context implements \Countable
 {

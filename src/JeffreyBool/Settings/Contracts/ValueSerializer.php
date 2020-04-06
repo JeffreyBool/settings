@@ -1,6 +1,6 @@
 <?php
 
-namespace Krucas\Settings\Contracts;
+namespace JeffreyBool\Settings\Contracts;
 
 interface ValueSerializer
 {

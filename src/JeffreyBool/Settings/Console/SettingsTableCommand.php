@@ -1,4 +1,4 @@
-<?php namespace Krucas\Settings\Console;
+<?php namespace JeffreyBool\Settings\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Composer;

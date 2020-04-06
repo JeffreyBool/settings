@@ -1,25 +1,25 @@
-<?php namespace Krucas\Settings;
+<?php namespace JeffreyBool\Settings;
 
 use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Contracts\Events\Dispatcher;
-use Krucas\Settings\Contracts\KeyGenerator;
-use Krucas\Settings\Contracts\Repository;
+use JeffreyBool\Settings\Contracts\KeyGenerator;
+use JeffreyBool\Settings\Contracts\Repository;
 use Illuminate\Contracts\Cache\Repository as Cache;
-use Krucas\Settings\Contracts\ValueSerializer;
+use JeffreyBool\Settings\Contracts\ValueSerializer;
 
 class Settings implements Repository
 {
     /**
      * Settings repository.
      *
-     * @var \Krucas\Settings\Contracts\Repository
+     * @var \JeffreyBool\Settings\Contracts\Repository
      */
     protected $repository;
 
     /**
      * Repository key generator.
      *
-     * @var \Krucas\Settings\Contracts\KeyGenerator
+     * @var \JeffreyBool\Settings\Contracts\KeyGenerator
      */
     protected $keyGenerator;
 
@@ -68,23 +68,23 @@ class Settings implements Repository
     /**
      * Used context.
      *
-     * @var \Krucas\Settings\Context
+     * @var \JeffreyBool\Settings\Context
      */
     protected $context;
 
     /**
      * Value serializer.
      *
-     * @var \Krucas\Settings\Contracts\ValueSerializer
+     * @var \JeffreyBool\Settings\Contracts\ValueSerializer
      */
     protected $valueSerializer;
 
     /**
      * Create new settings.
      *
-     * @param \Krucas\Settings\Contracts\Repository $repository
-     * @param \Krucas\Settings\Contracts\KeyGenerator $keyGenerator
-     * @param \Krucas\Settings\Contracts\ValueSerializer $valueSerializer
+     * @param \JeffreyBool\Settings\Contracts\Repository $repository
+     * @param \JeffreyBool\Settings\Contracts\KeyGenerator $keyGenerator
+     * @param \JeffreyBool\Settings\Contracts\ValueSerializer $valueSerializer
      */
     public function __construct(Repository $repository, KeyGenerator $keyGenerator, ValueSerializer $valueSerializer)
     {
@@ -96,7 +96,7 @@ class Settings implements Repository
     /**
      * Return wrapped repository instance.
      *
-     * @return \Krucas\Settings\Contracts\Repository
+     * @return \JeffreyBool\Settings\Contracts\Repository
      */
     public function getRepository()
     {
@@ -106,7 +106,7 @@ class Settings implements Repository
     /**
      * Return repository key generator.
      *
-     * @return \Krucas\Settings\Contracts\KeyGenerator
+     * @return \JeffreyBool\Settings\Contracts\KeyGenerator
      */
     public function getKeyGenerator()
     {
@@ -269,7 +269,7 @@ class Settings implements Repository
     /**
      * Set or reset context.
      *
-     * @param \Krucas\Settings\Context|null $context
+     * @param \JeffreyBool\Settings\Context|null $context
      * @return $this
      */
     public function context(Context $context = null)
